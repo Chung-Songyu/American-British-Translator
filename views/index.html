@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	  <title>American-British English Translator</title>
+	  <meta charset="utf-8"/>
+	  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+	  <link rel="stylesheet" href="../public/style.css">
+  </head>
+
+  <body>
+	  <header>
+		  <h1>American-British English Translator</h1>
+	  </header>
+	  <div class="form-container">
+			<textarea id="text-input" class="font round-border" rows="10" cols="30" placeholder="What would you like to translate?"></textarea>
+      <br/>
+      <select id="locale-select" class="font round-border">
+        <option value="american-to-british">American to British</option>
+        <option value="british-to-american">British to American</option>
+      </select>
+      <input type="button" id="translate-btn" class="font round-border" value="Translate"/>
+    </div>
+    <fieldset class="translation-container round-border">
+      <legend>Translation</legend>
+      <div id="translated-sentence"></div>
+      <div id="error-msg"></div>
+    </fieldset>
+  </body>
+  <script src="../public/index.js"></script>
+</html>

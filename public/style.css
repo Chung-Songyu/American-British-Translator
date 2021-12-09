@@ -1,0 +1,71 @@
+body {
+  font-family: 'Libre Baskerville', serif;
+	font-size: 20px;
+	background-color: rgba(20, 40, 65, 1);
+	text-align: center;
+  margin: 35px auto 40px auto;
+  color: white;
+}
+
+h1 {
+  margin: 0px 12px 0px 12px;
+}
+
+.form-container, .translation-container {
+  width: 75%;
+  max-width: 750px;
+}
+
+.form-container {
+  margin: 40px auto 0px auto;
+}
+
+#text-input {
+  padding: 10px 12px 10px 12px;
+  width: 97%;
+}
+
+.font {
+  font: inherit;
+  font-size: 16px;
+}
+
+.round-border {
+  border-radius: 5px;
+}
+
+#locale-select, #translate-btn {
+  height: 30px;
+  margin: 30px 8px 0px 8px;
+}
+
+#locale-select {
+  padding: 0px 8px 0px 8px;
+}
+
+#translate-btn {
+  background-color: rgba(175, 215, 255, 0.8);
+  border: 1px solid rgba(175, 215, 255, 1);
+  cursor: pointer;
+  font-weight: bold;
+  padding: 5px 10px 5px 10px;
+}
+
+.translation-container {
+  margin: 40px auto 0px auto;
+  box-shadow: 0 2px 3px rgba(255, 255, 255, 0.15), 0 7px 8px rgba(255, 255, 255, 0.17);
+  min-height: 50px;
+}
+
+#translated-sentence, #error-msg {
+  text-align: left;
+}
+
+#error-msg {
+  color: rgba(255, 150, 120, 1);
+}
+
+.highlight {
+  color: rgba(160, 35, 0, 1);
+  background: rgba(225, 245, 230, 0.7);
+}
